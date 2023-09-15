@@ -1,4 +1,4 @@
-project_name: "viz-report_table-marketplace"
+project_name: "test-viz-report_table"
 
 constant: VIS_LABEL {
   value: "Test Table (Report)"
@@ -12,6 +12,6 @@ constant: VIS_ID {
 
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://marketplace-api.looker.com/viz-dist/report_table.js"
+  url: "https://github.com/rkudulis/viz-report-table-marketplace/blob/master/report_table.js"
   label: "@{VIS_LABEL}"
 }
